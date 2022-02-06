@@ -1,0 +1,83 @@
+@import url("/components/Avtar/avtar.css");
+
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.badges-container{
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   box-shadow: 0px 1px 3px 0px rgba(0, 0 ,0,0.1);
+   width: 100vh;
+    height: 200px;
+}
+.avtar{
+    margin: 20px;
+}
+.badges {
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 0px 0px -35px 105px;
+    position: absolute;
+}
+
+.badges-awaiting{
+    background-color:orange;
+    
+    margin: 0px 0px -35px 210px;
+    position: absolute;
+}
+.offline-badges{
+    background-color:red;
+    
+    margin: 0px 0px -30px 305px;
+    position: absolute;
+}
+.new-badges{
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    margin: 0px 0px -20px 380px;
+    position: absolute;
+}
+.shopping-cart{
+    color: tomato;
+    font-size: 2rem;
+}
+.cart-badges{
+    box-shadow: 0px 1px 1px 0px rgba(0, 0 ,0,0.1);
+
+    width: 15px;
+    height: 15px;
+    background-color:red;
+    margin: -35px 0px 0px 440px;
+    position: absolute;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0px 0px 4px 6px;
+    z-index: 1;
+
+}
+
+
+.home-icon{
+    margin-left: 25px;
+    font-size: 2rem;
+    color:tomato;
+}
+.home-badges{
+    box-shadow: 0px 1px 1px 0px rgba(0, 0 ,0,0.1);
+
+    width: 15px;
+    height: 15px;
+    background-color:red;
+    margin: -25px 0px 0px 500px;
+    position: absolute;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0px 0px 4px 6px;
+    z-index: 1;
+}
