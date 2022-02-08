@@ -10,37 +10,37 @@ body{
    align-items: center;
    box-shadow: 0px 1px 3px 0px rgba(0, 0 ,0,0.1);
    width: 100vh;
-    height: 200px;
+    height: 12.5rem;
 }
 .avtar{
-    margin: 20px;
+    margin: 1.25rem;
 }
 .badges {
-    width:20px;
-    height: 20px;
+    width:1.25rem;
+    height: 1.25rem;
     border-radius: 50%;
     background-color: green;
-    margin: 0px 0px -35px 105px;
+    margin: 0 0 -2rem 6.5rem;
     position: absolute;
 }
 
 .badges-awaiting{
     background-color:orange;
     
-    margin: 0px 0px -35px 210px;
+    margin: 0px 0px -2.18rem 13rem;
     position: absolute;
 }
 .offline-badges{
     background-color:red;
     
-    margin: 0px 0px -30px 305px;
+    margin: 0 0 -1.87rem 19rem;
     position: absolute;
 }
 .new-badges{
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
     background-color: blue;
-    margin: 0px 0px -20px 380px;
+    margin: 0px 0px -1.25rem 23.75rem;
     position: absolute;
 }
 .shopping-cart{
@@ -50,10 +50,10 @@ body{
 .cart-badges{
     box-shadow: 0px 1px 1px 0px rgba(0, 0 ,0,0.1);
 
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
     background-color:red;
-    margin: -35px 0px 0px 440px;
+    margin: -2.18rem 0 0 27.5rem;
     position: absolute;
     color: #fff;
     font-size: 1rem;
@@ -64,17 +64,17 @@ body{
 
 
 .home-icon{
-    margin-left: 25px;
+    margin-left: 1.56rem;
     font-size: 2rem;
     color:tomato;
 }
 .home-badges{
     box-shadow: 0px 1px 1px 0px rgba(0, 0 ,0,0.1);
 
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
     background-color:red;
-    margin: -25px 0px 0px 500px;
+    margin: -1.56rem 0px 0px 31.25rem;
     position: absolute;
     color: #fff;
     font-size: 1rem;
