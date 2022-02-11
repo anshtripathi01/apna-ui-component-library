@@ -1,0 +1,117 @@
+@import url("/styles.css");
+@import url("/layout.css");
+@import url("/Components/Cards/cards.css");
+@import url("/Components/Alert/alert.css");
+@import url("/Components/Avatar/avatar.css");
+@import url("/Components/Button/button.css");
+@import url("/Components/Badges/badges.css");
+@import url("/Components/Images/images.css");
+@import url("/Components/Form/form.css");
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+overflow-x: scroll;
+}
+.card{
+    margin-top:7px;
+    width: 12.7rem;
+    height: 15.8rem;
+   
+   margin-left:  6.5rem;
+}
+.like-btn{
+    margin: 0rem 11.6rem;
+}
+.main {
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+    position: absolute;
+    flex-direction: column;
+    top: 6.5rem;
+    left: 20rem;
+    bottom: 0;
+}
+
+.sidebar {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(253, 242, 219);
+    flex-direction: column;
+    border: solid 1px rgb(240, 203, 123);
+    overflow:auto;
+    margin: 0;
+    padding: 0;
+    top:0;
+    margin:  0;
+    z-index: -1;
+    position:fixed;
+}
+
+
+h3 {
+    margin: 5rem 1rem 0;
+    color: grey;
+
+}
+
+.sidebar a {
+    transition: 0.5s;
+    margin: 2rem 2rem;
+}
+
+
+
+/* .ripple {
+    background-position: center;
+    transition: 0.8s;
+    padding: 6px 50px 5px 0px;
+    border-radius: 2px;
+
+    padding: 0.2rem 10rem 0 2rem;
+
+}
+
+.ripple:hover {
+
+
+    background: radial-gradient(circle, transparent 2%, #FFAB76 1%) center/15000%;
+}
+
+.ripple:active {
+    background-color: #FFAB76;
+    background-size: 100%;
+    transition: 0s;
+} */
+
+.top {
+    bottom: 1rem;
+    right: 1.3rem;
+    position: fixed;
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.top a {
+    position: absolute;
+    margin: 0.5rem 0.9rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+
+
+
+/* badges */
+.new-badges{
+    padding: 0;
+}
