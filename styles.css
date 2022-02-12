@@ -14,7 +14,7 @@ h1 {
 
 .header {
     display: flex;
-    box-shadow: 0px 1px 2px 1px rgb(245, 196, 122);
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.2);
     background: rgb(253, 242, 219);
     justify-content: center;
     align-items: center;
