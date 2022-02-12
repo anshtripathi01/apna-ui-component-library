@@ -1,0 +1,40 @@
+@import url("/layout.css");
+
+.slider-container {
+  width: 20rem;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+  height: 10rem;
+  padding: 0.5rem 0 1rem 3rem;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 10rem;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin: 1rem 0;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1rem;
+  height: 2rem;
+  background: var(--primary-color);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 1rem;
+  height: 1rem;
+  background: var(--primary-color);
+  cursor: pointer;
+}
