@@ -1,0 +1,40 @@
+@import url("/layout.css");
+@import url("/styles.css");
+
+input {
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    margin: 0 1rem 0 0px;
+    border: none;
+    outline: none;
+    border-left: none;
+    padding: 8px;
+}
+.nav{
+    margin: 1rem 0 0;
+
+}
+.header{
+    background-color: #fff;
+}
+.nav-icon {
+    font-size: 1.5rem;
+    margin-left: 2px;
+}
+
+.nav-icon:hover {
+    color: #000;
+}
+.user-nav-link{
+    display: flex;
+    list-style: none;
+    flex-grow: 0;
+}
+.searchbar {
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+    color: #858585;
+    background-color: #fff;
+    padding: 8px;
+    border-right: none;
+}
