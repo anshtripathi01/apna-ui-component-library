@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApnaUI|Documentations</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="docs.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>ApnaUI</h1>
+        <nav class="navbar">
+            <ul class="nav">
+                <li class="nav-link"><a href="/index.html">Home</a></li>
+                <li class="nav-link"><a href="/Documentation/docs.html#alert">Documentation</a></li>
+
+            </ul>
+            <ul class="nav-social">
+                <li class="nav-link"><a href="https://www.linkedin.com/anshtripathi01" target="blank"><i
+                            class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+                    </a></li>
+                <li class="nav-link"><a href="https://www.github.com/anshtripathi01" target="blank"><i
+                            class="fab fa-github fa-lg" aria-hidden="true"></i>
+                    </a></li>
+                <li class="nav-link"><a href="https://www.twitter.com/ansh_tripathi01" target="blank"><i
+                            class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="sidebar">
+        <h3>Documentation</h3>
+
+        <a class="ripple" href="#avtar">Avtar</a>
+
+        <a class="ripple" href="#alert">Alert</a>
+
+        <a class="ripple" href="#button">Button</a>
+
+        <a class="ripple" href="#badges">Badges</a>
+
+
+        <a class="ripple" href="#cards">Cards</a>
+        <a class="ripple" href="#form">Form</a>
+
+        <a class="ripple" href="#rating">Rating</a>
+        <a class="ripple" href="#navigation">Navigation</a>
+        <a class="ripple" href="#slider">Slider</a>
+
+
+    </div>
+
+    <!-- avtar section -->
+
+    <section class="main">
+        <section id="avtar">
+            <h2>Avtar</h2>
+            <p>Here is Demo of all types avtar we can use any type of avtar is shown below</p>
+            <div class="avtar_container">
+
+                <div class="avtar">
+                    <img class="img-round" src="https://i.pravatar.cc/100" alt="">
+                </div>
+                <div class="avtar avtar-md">
+                    <img class="img-round" src="https://i.pravatar.cc/70" alt="md-avtar">
+                </div>
+                <div class="avtar avtar-sm">
+                    <img class="img-round" src="https://i.pravatar.cc/50" alt="">
+                </div>
+                <div class="avtar avtar-xs">
+                    <img class="img-round" src="https://i.pravatar.cc/35" alt="">
+                </div>
+            </div>
+            <h2>Example With above demo</h2>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253E%2520Different%2520Types%2520Of%2520Avtar%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F100%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar%2520avtar-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F70%2522%2520alt%253D%2522md-avtar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar%2520avtar-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F50%2522%2520alt%253D%2522%2522%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar%2520avtar-xs%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F35%2522%2520alt%253D%2522%2522%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520"
+                style="width: 782px; height: 207px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </section>
+
+
+        <section id="alert">
+            <h2>Alert</h2>
+            <p>Here is Demo of all types alert is shown below</p>
+
+            <div class="alert-container">
+                <div class="alert alert-primary"> A Primary Alert</div>
+                <div class="alert alert-secondary"> A Secondary Alert</div>
+                <div class="alert alert-success">
+                    <span><i class="fas fa-check-circle"></i></span> A Success Alert
+                </div>
+                <div class="alert alert-danger">
+                    <span><i class="fas fa-exclamation-triangle"></i></span> Danger Alert
+                </div>
+                <div class="alert alert-warning">
+                    <span><i class="fas fa-exclamation-circle"></i></span> A Warning Alert
+                </div>
+            </div>
+
+            <h2>Example Code</h2>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch2%253EAlert%2520Components%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%2520A%2520Primary%2520Alert%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253E%2520A%2520Secondary%2520Alert%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520A%2520Success%2520Alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520Danger%2520Alert%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520A%2520Warning%2520Alert%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 800px; height: 222px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </section>
+
+
+        <!-- Button Docs -->
+        <section id="button">
+            <h2>Button Example code With Demo</h2>
+            <h3>Different Layouts Of Button</h3>
+            <div class="btn-container">
+
+                <a class="btn btn-solid-primary" href="#">Primary Button</a>
+                <a class="btn btn-outline-primary" href="#">Primary Button</a>
+                <a class="btn btn-link-primary" href="#">Primary Link</a>
+                <a class="btn icon-btn-primary" href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a class="btn float-btn-primary" href="https://google.com/"><span class="float-icon">+</span></a>
+
+            </div>
+            <h2>Example With above demo</h2>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch3%253EDifferent%2520Layouts%2520Of%2520Button%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-solid-primary%2522%2520href%253D%2522%2523%2522%253EPrimary%2520Button%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-outline-primary%2522%2520href%253D%2522%2523%2522%253EPrimary%2520Button%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-link-primary%2522%2520href%253D%2522%2523%2522%253EPrimary%2520Link%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520icon-btn-primary%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520float-btn-primary%2522%2520href%253D%2522https%253A%252F%252Fgoogle.com%252F%2522%253E%253Cspan%2520class%253D%2522float-icon%2522%253E%252B%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 800px; height: 218px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </section>
+
+
+
+        <!-- Badges Docs -->
+
+        <section id="badges">
+
+            <h2>Badges On Avatars And Icons</h2>
+            <div class="badges-container">
+                <div class="avtar">
+                    <img class="img-round" src="https://i.pravatar.cc/100" alt="">
+                </div>
+                <span class="badges"></span>
+                <div class="avtar avtar-md">
+                    <img class="img-round" src="https://i.pravatar.cc/70" alt="md-avtar">
+                </div>
+                <span class="badges badges-awaiting"></span>
+                <div class="avtar avtar-sm">
+                    <img class="img-round" src="https://i.pravatar.cc/50" alt="">
+                </div>
+                <span class="badges offline-badges"></span>
+                <div class="avtar avtar-xs">
+                    <img class="img-round" src="https://i.pravatar.cc/35" alt="">
+                </div>
+                <span class="badges new-badges"></span>
+
+                <i class=" shopping-cart fas fa-shopping-cart"></i>
+                <span class="badges cart-badges">2</span>
+                <i class=" home-icon fas fa-home"></i>
+                <span class="badges home-badges">5</span>
+            </div>
+            <h2>Example With above demo</h2>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Ch2%253EBadges%2520On%2520Avatars%2520And%2520Icons%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badges-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F100%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badges%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar%2520avtar-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F70%2522%2520alt%253D%2522md-avtar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badges%2520badges-awaiting%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar%2520avtar-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F50%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badges%2520offline-badges%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avtar%2520avtar-xs%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F35%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badges%2520new-badges%2522%253E%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522%2520shopping-cart%2520fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badges%2520cart-badges%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522%2520home-icon%2520fas%2520fa-home%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badges%2520home-badges%2522%253E5%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 800px; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </section>
+
+
+        <!-- Card Docs -->
+        <section id="cards">
+
+            <h2>Different Cards Layouts</h2>
+            <div class="cards-container">
+                <!-- <div class="vertical-cards"> -->
+                <div class="card">
+                    <div class="img">
+                        <i class="times-btn fas fa-times"></i>
+                        <img src="https://www.psdmockups.com/wp-content/uploads/2017/08/Long-Sleeve-Jacket-Sweater-Front-Back-PSD-Mockup.jpg"
+                            alt="">
+
+                        <button class="btn btn-solid-primary">Buy Now</button>
+                        <button class="btn btn-outline-primary">Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="img">
+                        <span class="card-badges">New</span>
+                        <img src="https://www.psdmockups.com/wp-content/uploads/2017/08/Long-Sleeve-Jacket-Sweater-Front-Back-PSD-Mockup.jpg"
+                            alt="">
+
+                        <button class="btn btn-solid-primary">Buy Now</button>
+                        <button class="btn btn-outline-primary">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- start -->
+                <div class="horizontal-card-container">
+                    <div class="horizontal-card">
+                        <div class="img">
+                            <i class=" like-btn fas fa-heart"></i>
+                            <img src="https://www.psdmockups.com/wp-content/uploads/2017/08/Long-Sleeve-Jacket-Sweater-Front-Back-PSD-Mockup.jpg"
+                                alt="">
+
+                            <button class="btn btn-solid-primary">Buy Now</button>
+                            <button class="btn btn-outline-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <h3>Blue Jacket</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing eli.architecto officiis ipsam aperiam
+                            molestias,
+                            modi ducimus fuga? Pariatur.</p>
+                    </div>
+                </div>
+
+                <!-- horzontal-end -->
+                <div class="card disabled-card">
+                    <div class="img">
+                        <span class="text-over-card">Out Of Stock</span>
+                        <img src="https://www.psdmockups.com/wp-content/uploads/2017/08/Long-Sleeve-Jacket-Sweater-Front-Back-PSD-Mockup.jpg"
+                            alt="">
+
+                        <button class="btn btn-solid-primary">Buy Now</button>
+                        <button class="btn btn-outline-primary">Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="img">
+                        <i class=" like-btn fas fa-heart"></i>
+                        <img src="https://www.psdmockups.com/wp-content/uploads/2017/08/Long-Sleeve-Jacket-Sweater-Front-Back-PSD-Mockup.jpg"
+                            alt="">
+
+                        <button class="btn btn-solid-primary">Buy Now</button>
+                        <button class="btn btn-outline-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <h2>Example With above demo</h2>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch2%253EDifferent%2520Cards%2520Layouts%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cards-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520%253Cdiv%2520class%253D%2522vertical-cards%2522%253E%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522times-btn%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fwww.psdmockups.com%252Fwp-content%252Fuploads%252F2017%252F08%252FLong-Sleeve-Jacket-Sweater-Front-Back-PSD-Mockup.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522new-badges%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fwww.psdmockups.com%252Fwp-content%252Fuploads%252F2017%252F08%252FLong-Sleeve-Jacket-Sweater-Front-Back-PSD-Mockup.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520start%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522%2520like-btn%2520fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fwww.psdmockups.com%252Fwp-content%252Fuploads%252F2017%252F08%252FLong-Sleeve-Jacket-Sweater-Front-Back-PSD-Mockup.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EBlue%2520Jacket%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520eli.architecto%2520officiis%2520ipsam%2520aperiam%2520molestias%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520modi%2520ducimus%2520fuga%253F%2520Pariatur.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520horzontal-end%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520clas"
+                style="width: 800px; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+        </section>
+
+
+        <!-- Images Docs -->
+        <section id="image">
+            <h2>Layouts Of Responsive Image and Round Image Components</h2>
+            <div class="images-container">
+                <div>
+                    <img class="responsive-image"
+                        src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg"
+                        alt="responsive-image">
+                </div>
+                <img class="round-image" src="/Components/Images/ApnaUi.png" alt="round-image">
+            </div>
+            <h2>Example With above demo</h2>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch2%253ELayouts%2520Of%2520Responsive%2520Image%2520and%2520Round%2520Image%2520Components%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522images-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522responsive-image%2522%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2015%252F12%252F01%252F20%252F28%252Froad-1072821_960_720.jpg%2522%2520alt%253D%2522responsive-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522round-image%2522%2520src%253D%2522ApnaUi.png%2522%2520alt%253D%2522round-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 800px; height: 208px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </section>
+
+
+        <!-- Form Docs With Demo -->
+        <section id="form">
+            <h2>Form</h2>
+            <p>Here is Demo of Form Components is shown below we can use including the below "CSS classes"</p>
+            <form class="form" action="">
+                <h2 class="form-heading">Sign Up</h2>
+                <label class="form-label" for="Name">Full Name</label>
+                <input class="form-input" type="text" placeholder="John Doe" autofocus>
+                <label class="form-label" for="Email">Email</label>
+                <input class="form-input" type="email" placeholder="example@email.com">
+                <label class="form-label" for="password">Create Password</label>
+                <input class="form-input" type="password">
+                <span class="form-checkbox">
+                    <input type="checkbox">
+                    <label for="checkbox">I agree with terms</label>
+                </span>
+                <span class="form-btn">
+                    <a class="btn btn-solid-primary" href="">Sign Up</a>
+                    <a class="btn btn-outline-primary" href="#">Cancel</a>
+                </span>
+            </form>
+
+            <h2>Example With above demo</h2>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%2520action%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522form-heading%2522%253ESign%2520Up%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522Name%2522%253EFull%2520Name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522John%2520Doe%2522%2520autofocus%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522Email%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-input%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522example%2540email.com%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522password%2522%253ECreate%2520Password%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-input%2522%2520type%253D%2522password%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522form-checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox%2522%253EI%2520agree%2520with%2520terms%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522form-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-solid-primary%2522%2520href%253D%2522%2522%253ESign%2520Up%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-outline-primary%2522%2520href%253D%2522%2523%2522%253ECancel%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fform%253E"
+                style="width: 799px; height: 286px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </section>
+
+
+<!-- Rating Docs -->
+        <section id="rating">
+            <h2>RATING</h2>
+            <p>Here is Demo of Form Components is shown below we can use including the below "CSS classes"</p>
+            <div class="rating-container">
+                <div> <p>3-Star Rating</p>
+                    </div>
+           <div class="star-container">
+            <i class="checked-star fa-solid fa-star "></i>
+            <i class="checked-star fa-solid fa-star"></i>
+            <i class="checked-star fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+           </div>    
+           <div class="star-container">
+               <p>5-Star rating</p>
+            <i class="checked-star fa-solid fa-star "></i>
+            <i class="checked-star fa-solid fa-star"></i>
+            <i class="checked-star fa-solid fa-star"></i>
+            <i class="checked-star fa-solid fa-star "></i>
+            <i class="checked-star fa-solid fa-star"></i>
+           </div> 
+        
+            </div>
+            <h2>Example With above demo</h2>
+
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520%253Cp%253E3-Star%2520Rating%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522star-container%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522checked-star%2520fa-solid%2520fa-star%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522checked-star%2520fa-solid%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522checked-star%2520fa-solid%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522star-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253E5-Star%2520rating%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522checked-star%2520fa-solid%2520fa-star%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522checked-star%2520fa-solid%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522checked-star%2520fa-solid%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522checked-star%2520fa-solid%2520fa-star%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522checked-star%2520fa-solid%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fdiv%253E%2520%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+  style="width: 800px; height: 280px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </section>
+
+
+        <!-- navigation -->
+        <section id="navigation">
+            <h2>Navigation</h2>
+            <p>Here is Demo of Navigation we can use  is shown below</p>
+            <header class="header">
+                <h1>ApnaStore</h1>
+                <nav class="navbar">
+                    <ul class="nav">
+                        <li class="nav-link"> <a class="" href="#">Home</a>
+                        </li>
+                        <li class="nav-link"> <a class="" href="#">Shop</p></a>
+                        </li>
+                    </ul>
+                    <ul class="user-nav-link">
+                        <i class="searchbar fa-solid fa-magnifying-glass"></i> <input type="search"
+                            placeholder="search a product">
+                        <li class="nav-link"><a href="https://www.github.com/anshtripathi01" target="_blank"><i
+                                    class="nav-icon fa-solid fa-user"></i></a></li>
+                        <li class="nav-link"><a href=""><i class="nav-icon fa-solid fa-heart"></i></a></li>
+        
+                        <li class="nav-link"><a href=""><i class="nav-icon fa-solid fa-cart-shopping"></i></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <h2>Example With above demo</h2>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cheader%2520class%253D%2522header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EApnaStore%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-link%2522%253E%2520%253Ca%2520class%253D%2522%2522%2520href%253D%2522%2523%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-link%2522%253E%2520%253Ca%2520class%253D%2522%2522%2520href%253D%2522%2523%2522%253EShop%253C%252Fp%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522user-nav-link%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522searchbar%2520fa-solid%2520fa-magnifying-glass%2522%253E%253C%252Fi%253E%2520%253Cinput%2520type%253D%2522search%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522search%2520a%2520product%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-link%2522%253E%253Ca%2520href%253D%2522https%253A%252F%252Fwww.github.com%252Fanshtripathi01%2522%2520target%253D%2522_blank%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522nav-icon%2520fa-solid%2520fa-user%2522%253E%253C%252Fi%253E%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-link%2522%253E%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522nav-icon%2520fa-solid%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-link%2522%253E%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522nav-icon%2520fa-solid%2520fa-cart-shopping%2522%253E%253C%252Fi%253E%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%2520%2520%253C%252Fheader%253E%250A"
+            style="width: 800px; height: 278px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </section>
+
+        <!-- Slider Docs -->
+        <section id="slider">
+            <h2>Slider</h2>
+            <p>Here is Demo of slider we can use  is shown below</p>
+            <div class="slider-container">
+                <p>Range slider </p>
+               <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="1" max="100" value="30">
+                <input class="slider" type="range" min="1" max="200" value="30">
+          
+            </div>
+
+            <h2>Example With above demo</h2>
+
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ERange%2520slider%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-volume-high%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252230%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522slider%2522%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522200%2522%2520value%253D%252230%2522%253E%250A%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 740px; height: 299px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </section>
+       
+    </section>
+
+
+
+
+
+    <div class="top">
+        <a href="#top"><i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
+    </div>
+
+
+    <footer>
+
+        <p>Made With Love By Ansh</p>
+
+
+
+        <ul class="footer-social">
+            <li class="footer-link"><a href="https://www.linkedin.com/anshtripathi01" target="blank"><i
+                        class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+                </a></li>
+            <li class="footer-link"><a href="https://www.github.com/anshtripathi01" target="blank"><i
+                        class="fab fa-github fa-lg" aria-hidden="true"></i>
+                </a></li>
+            <li class="nav-link"><a href="https://www.twitter.com/ansh_tripathi01"><i class="fab fa-twitter fa-lg"
+                        aria-hidden="true"></i></a></li>
+        </ul>
+        <h6>&copy; 2021 ApnaUI Design</h6>
+
+    </footer>
+</body>
+
+</html>
