@@ -11,7 +11,7 @@ combine to build responsive UI/UX.
 
 ## Technologies Stack
 
-**Client:** HTML, CSS, JavaScript
+- HTML, CSS, JavaScript
 
 
 ## Run Locally
