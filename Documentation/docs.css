@@ -15,7 +15,6 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
     overflow-x: scroll;
 }
 
@@ -23,7 +22,6 @@ body {
     margin-top: 7px;
     width: 12.7rem;
     height: 15.8rem;
-
     margin-left: 6.5rem;
 }
 
@@ -31,24 +29,24 @@ body {
     margin: 0rem 11.6rem;
 }
 
-.main {
+#main {
     display: flex;
     height: 100vh;
-    width: 100wh;
     position: absolute;
     flex-direction: column;
     top: 6.5rem;
     left: 20rem;
     bottom: 0;
 }
-
+.docs-description{
+    margin:1rem 10rem 1rem 1rem;
+}
 .sidebar {
     display: flex;
     width: 200px;
     height: 100%;
-    background-color: rgb(253, 242, 219);
+    background-color: var(--navbar-color);
     flex-direction: column;
-    border: solid 1px rgb(240, 203, 123);
     overflow: auto;
     margin: 0;
     padding: 0;
@@ -61,8 +59,7 @@ body {
 
 h3 {
     margin: 6rem 1rem 0;
-    color: grey;
-
+    color: #858585;
 }
 
 .sidebar a {
@@ -119,12 +116,12 @@ footer {
    position: absolute;
     display: flex;
     bottom: 0;
-    top: 1290vh;
+    top: 1295vh;
     z-index: 0;
     left:0;
     right:0;
-  
 }
+
 
 /* badges */
 .new-badges {

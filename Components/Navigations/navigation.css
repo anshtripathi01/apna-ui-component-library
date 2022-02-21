@@ -18,7 +18,8 @@ input {
 }
 
 .header {
-    background-color: #fff;
+    flex-wrap: wrap;
+    background-color: var(--navbar-color);
 }
 
 .nav-icon {
