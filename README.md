@@ -11,7 +11,7 @@ combine to build responsive UI/UX.
 
 ## Technologies Stack
 
-- HTML, CSS, JavaScript
+- HTML,CSS
 
 
 ## Run Locally
@@ -57,7 +57,7 @@ Start the server
 
 - User interactive components
 - Easy to modify
-- East to access
+- Easy to access
 - Fast performance
 
 
@@ -65,6 +65,7 @@ Start the server
 ## Features
 
 - Live previews
+- Different Types Of Layouts
 - Fullscreen mode
 - Cross platform
 - Import single component
