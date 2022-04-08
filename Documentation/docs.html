@@ -40,26 +40,28 @@
             </ul>
         </nav>
     </header>
-    <div class="sidebar">
-        <h3>Documentation</h3>
-
-        <a class="ripple" href="#alert">Alert</a>
-        <a class="ripple" href="#avtar">Avtar</a>
-        <a class="ripple" href="#button">Button</a>
-        <a class="ripple" href="#badges">Badges</a>
-        <a class="ripple" href="#cards">Cards</a>
-        <a class="ripple" href="#image">Image</a>
-        <a class="ripple" href="#form">Input</a>
-        <a class="ripple" href="#rating">Rating</a>
-        <a class="ripple" href="#navigation">Navigation</a>
-        <a class="ripple" href="#slider">Slider</a>
-
-
-    </div>
+    
+    
     <!-- Documentations -->
 
-    <section id="main">
-
+    
+<main>
+        <aside>
+            <div class="sidebar">
+                <h3>Documentation</h3>
+                <a class="ripple" href="#alert">Alert</a>
+                <a class="ripple" href="#avtar">Avtar</a>
+                <a class="ripple" href="#button">Button</a>
+                <a class="ripple" href="#badges">Badges</a>
+                <a class="ripple" href="#cards">Cards</a>
+                <a class="ripple" href="/Components/Images/images.html">Image</a>
+                <a class="ripple" href="#form">Input</a>
+                <a class="ripple" href="#rating">Rating</a>
+                <a class="ripple" href="#navigation">Navigation</a>
+                <a class="ripple" href="#slider">Slider</a>
+            </div>
+        </aside>
+        <section id="main">
         <!-- Alert Docs -->
 
         <section id="alert">
@@ -83,9 +85,9 @@
             </div>
 
             <h2>Example Code</h2>
-            <iframe
+            <iframe class="iframe"
                 src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch2%253EAlert%2520Components%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%2520A%2520Primary%2520Alert%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253E%2520A%2520Secondary%2520Alert%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520A%2520Success%2520Alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520Danger%2520Alert%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520A%2520Warning%2520Alert%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-                style="width: 800px; height: 222px; border:0; transform: scale(1); overflow:hidden;"
+                style=" width:800px; height: 222px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
         </section>
@@ -231,6 +233,20 @@
                 </div>
 
                 <!-- horzontal-end -->
+
+
+                <!-- text only Card -->
+            <div class="text-only-card">
+                <div class="text-container">
+                    <h3>Blue Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing eli.architecto officiis ipsam aperiam molestias,
+                        modi ducimus fuga? Pariatur.</p>
+                </div>
+            </div>
+            
+            <!-- text-only-card-end -->
+
+
                 <div class="card disabled-card">
                     <div class="img">
                         <span class="text-over-card">Out Of Stock</span>
@@ -266,50 +282,31 @@
         </section>
 
 
-        <!-- Images Docs -->
-        <section id="image">
-            <h2> Responsive Image and Round Image</h2>
-            <p class="docs-description">Here You can access differents types of images layouts using below css classes.</p>
-            <div class="images-container">
-                <div>
-                    <img class="responsive-image"
-                        src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg"
-                        alt="responsive-image">
-                </div>
-                <img class="round-image" src="/Components/Images/ApnaUi.png" alt="round-image">
-            </div>
-            <h2>Example With above demo</h2>
-
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch2%253ELayouts%2520Of%2520Responsive%2520Image%2520and%2520Round%2520Image%2520Components%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522images-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522responsive-image%2522%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2015%252F12%252F01%252F20%252F28%252Froad-1072821_960_720.jpg%2522%2520alt%253D%2522responsive-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522round-image%2522%2520src%253D%2522ApnaUi.png%2522%2520alt%253D%2522round-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                style="width: 800px; height: 208px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
-        </section>
-
-
         <!-- Form Docs With Demo -->
         <section id="form">
-            <h2>Form</h2>
+            <h2>Input</h2>
             <p class="docs-description">Here is different types Input Components. You can access this layouts using below css classes</p>
             <form class="form" action="">
-                <h2 class="form-heading">Sign Up</h2>
+                <h2 class="form-heading">Form</h2>
                 <label class="form-label" for="Name">Full Name</label>
                 <input class="form-input" type="text" placeholder="John Doe" autofocus>
+                <p class="error-msg">This field is required</p>
+        
                 <label class="form-label" for="Email">Email</label>
                 <input class="form-input" type="email" placeholder="example@email.com">
-                <label class="form-label" for="password">Create Password</label>
-                <input class="form-input" type="password">
+                <p class="error-msg">This field is required</p>
+        
+                <label class="form-label" for="Message">Type your Message</label>
+                <textarea class="form-input" type="text" placeholder="Message"></textarea> 
+                <p class="error-msg">This field is required</p>
                 <span class="form-checkbox">
                     <input type="checkbox">
                     <label for="checkbox">I agree with terms</label>
                 </span>
                 <span class="form-btn">
-                    <a class="btn btn-solid-primary" href="">Sign Up</a>
-                    <a class="btn btn-outline-primary" href="#">Cancel</a>
+                    <a class="btn btn-solid-primary" href="">Submit</a>
                 </span>
             </form>
-
             <h2>Example With above demo</h2>
             <iframe
                 src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form%2522%2520action%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522form-heading%2522%253ESign%2520Up%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522Name%2522%253EFull%2520Name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522John%2520Doe%2522%2520autofocus%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522Email%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-input%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522example%2540email.com%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522password%2522%253ECreate%2520Password%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-input%2522%2520type%253D%2522password%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522form-checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox%2522%253EI%2520agree%2520with%2520terms%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522form-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-solid-primary%2522%2520href%253D%2522%2522%253ESign%2520Up%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-outline-primary%2522%2520href%253D%2522%2523%2522%253ECancel%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fform%253E"
@@ -409,7 +406,7 @@
         </section>
 
     </section>
-
+</main>
 
 
 
