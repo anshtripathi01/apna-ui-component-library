@@ -12,6 +12,7 @@
 @import url("/Components/Lists/lists.css");
 @import url("/Components//Model/model.css");
 @import url("/Components/Grid/grid.css");
+@import url("/Components/Snackbar/snackbar.css");
 
 :root{
     font-size: 1rem;
@@ -101,7 +102,7 @@ h3 {
 footer {
     position: absolute;
     display: flex;
-    margin-top: 1240vh;
+    margin-top: 1170vh;
 }
 
 
