@@ -1,0 +1,19 @@
+
+.snackbar {
+    width: fit-content;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    background-color: var(--navbar-color);
+    color: var(--primary-color);
+    margin: 1rem;
+  }
+  .snackbar a {
+    color: #EE82EE;
+    margin-top: 1.2rem;
+  }
+  .close-btn{
+      font-size: 1.5rem;
+      margin-top: 1.2rem;
+  }

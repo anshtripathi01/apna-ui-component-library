@@ -11,6 +11,7 @@
 @import url("/Components/Slider/slider.css");
 @import url("/Components//Model/model.css");
 @import url("/Components/Grid/grid.css");
+@import url("/Components/Snackbar/snackbar.css");
 :root{
     font-size: 1rem;
 }
@@ -99,7 +100,7 @@ h3 {
 footer {
     position: absolute;
     display: flex;
-    margin-top: 970vh;
+    margin-top: 1170vh;
 }
 
 
