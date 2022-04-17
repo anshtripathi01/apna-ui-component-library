@@ -9,8 +9,10 @@
 @import url("/Components/Navigations/navigation.css");
 @import url("/Components/Rating/rating.css");
 @import url("/Components/Slider/slider.css");
+@import url("/Components/Lists/lists.css");
 @import url("/Components//Model/model.css");
 @import url("/Components/Grid/grid.css");
+
 :root{
     font-size: 1rem;
 }
@@ -99,7 +101,7 @@ h3 {
 footer {
     position: absolute;
     display: flex;
-    margin-top: 970vh;
+    margin-top: 1240vh;
 }
 
 
