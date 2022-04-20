@@ -10,21 +10,27 @@
 </head>
 
 <body>
+    
+    </div>
     <form class="form" action="">
-        <h2 class="form-heading">Sign Up</h2>
+        <h2 class="form-heading">Form</h2>
         <label class="form-label" for="Name">Full Name</label>
         <input class="form-input" type="text" placeholder="John Doe" autofocus>
+        <p class="error-msg">This field is required</p>
+
         <label class="form-label" for="Email">Email</label>
         <input class="form-input" type="email" placeholder="example@email.com">
-        <label class="form-label" for="password">Create Password</label>
-        <input class="form-input" type="password">
+        <p class="error-msg">This field is required</p>
+
+        <label class="form-label" for="Message">Type your Message</label>
+        <textarea class="form-input" type="text" placeholder="Message"></textarea> 
+        <p class="error-msg">This field is required</p>
         <span class="form-checkbox">
             <input type="checkbox">
             <label for="checkbox">I agree with terms</label>
         </span>
         <span class="form-btn">
-            <a class="btn btn-solid-primary" href="">Sign Up</a>
-            <a class="btn btn-outline-primary" href="#">Cancel</a>
+            <a class="btn btn-solid-primary" href="">Submit</a>
         </span>
     </form>
 </body>
