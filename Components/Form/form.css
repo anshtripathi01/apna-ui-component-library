@@ -11,7 +11,12 @@
     padding: 10px;
     margin: 10px;
 }
-
+.error-msg{
+    color: var(--error-color);
+    font-size: small;
+    text-align: center;
+    margin-top: 0;
+}
 .form-btn{
     margin: 1rem ;
 }
